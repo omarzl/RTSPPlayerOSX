@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806B28A81C5FE4380089BBB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28A71C5FE4380089BBB2 /* AppDelegate.m */; };
+		806B28AB1C5FE4380089BBB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28AA1C5FE4380089BBB2 /* main.m */; };
+		806B28AE1C5FE4380089BBB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28AD1C5FE4380089BBB2 /* ViewController.m */; };
+		806B28B01C5FE4380089BBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806B28AF1C5FE4380089BBB2 /* Assets.xcassets */; };
+		806B28B31C5FE4380089BBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806B28B11C5FE4380089BBB2 /* Main.storyboard */; };
+		806B28C41C5FE6C30089BBB2 /* libavcodec.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28BB1C5FE6C30089BBB2 /* libavcodec.dylib */; };
+		806B28C51C5FE6C30089BBB2 /* libavdevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28BC1C5FE6C30089BBB2 /* libavdevice.dylib */; };
+		806B28C61C5FE6C30089BBB2 /* libavfilter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28BD1C5FE6C30089BBB2 /* libavfilter.dylib */; };
+		806B28C71C5FE6C30089BBB2 /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28BE1C5FE6C30089BBB2 /* libavformat.dylib */; };
+		806B28C81C5FE6C30089BBB2 /* libavresample.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28BF1C5FE6C30089BBB2 /* libavresample.dylib */; };
+		806B28C91C5FE6C30089BBB2 /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28C01C5FE6C30089BBB2 /* libavutil.dylib */; };
+		806B28CA1C5FE6C30089BBB2 /* libpostproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28C11C5FE6C30089BBB2 /* libpostproc.dylib */; };
+		806B28CB1C5FE6C30089BBB2 /* libswresample.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28C21C5FE6C30089BBB2 /* libswresample.dylib */; };
+		806B28CC1C5FE6C30089BBB2 /* libswscale.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806B28C31C5FE6C30089BBB2 /* libswscale.dylib */; };
+		806B28D41C5FE7A40089BBB2 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28CF1C5FE7A40089BBB2 /* AudioStreamer.m */; };
+		806B28D51C5FE7A40089BBB2 /* RTSPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28D11C5FE7A40089BBB2 /* RTSPPlayer.m */; };
+		806B28D61C5FE7A40089BBB2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B28D31C5FE7A40089BBB2 /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		806B28A31C5FE4380089BBB2 /* RTSPPlayerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTSPPlayerOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806B28A61C5FE4380089BBB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		806B28A71C5FE4380089BBB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806B28AA1C5FE4380089BBB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806B28AC1C5FE4380089BBB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		806B28AD1C5FE4380089BBB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		806B28AF1C5FE4380089BBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806B28B21C5FE4380089BBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806B28B41C5FE4380089BBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806B28BB1C5FE6C30089BBB2 /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavcodec.dylib; sourceTree = "<group>"; };
+		806B28BC1C5FE6C30089BBB2 /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavdevice.dylib; sourceTree = "<group>"; };
+		806B28BD1C5FE6C30089BBB2 /* libavfilter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavfilter.dylib; sourceTree = "<group>"; };
+		806B28BE1C5FE6C30089BBB2 /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavformat.dylib; sourceTree = "<group>"; };
+		806B28BF1C5FE6C30089BBB2 /* libavresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavresample.dylib; sourceTree = "<group>"; };
+		806B28C01C5FE6C30089BBB2 /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libavutil.dylib; sourceTree = "<group>"; };
+		806B28C11C5FE6C30089BBB2 /* libpostproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpostproc.dylib; sourceTree = "<group>"; };
+		806B28C21C5FE6C30089BBB2 /* libswresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswresample.dylib; sourceTree = "<group>"; };
+		806B28C31C5FE6C30089BBB2 /* libswscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswscale.dylib; sourceTree = "<group>"; };
+		806B28CE1C5FE7A40089BBB2 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		806B28CF1C5FE7A40089BBB2 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		806B28D01C5FE7A40089BBB2 /* RTSPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSPPlayer.h; sourceTree = "<group>"; };
+		806B28D11C5FE7A40089BBB2 /* RTSPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSPPlayer.m; sourceTree = "<group>"; };
+		806B28D21C5FE7A40089BBB2 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		806B28D31C5FE7A40089BBB2 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806B28A01C5FE4380089BBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806B28C41C5FE6C30089BBB2 /* libavcodec.dylib in Frameworks */,
+				806B28CC1C5FE6C30089BBB2 /* libswscale.dylib in Frameworks */,
+				806B28C91C5FE6C30089BBB2 /* libavutil.dylib in Frameworks */,
+				806B28CA1C5FE6C30089BBB2 /* libpostproc.dylib in Frameworks */,
+				806B28C51C5FE6C30089BBB2 /* libavdevice.dylib in Frameworks */,
+				806B28C71C5FE6C30089BBB2 /* libavformat.dylib in Frameworks */,
+				806B28C61C5FE6C30089BBB2 /* libavfilter.dylib in Frameworks */,
+				806B28C81C5FE6C30089BBB2 /* libavresample.dylib in Frameworks */,
+				806B28CB1C5FE6C30089BBB2 /* libswresample.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806B289A1C5FE4380089BBB2 = {
+			isa = PBXGroup;
+			children = (
+				806B28A51C5FE4380089BBB2 /* RTSPPlayerOSX */,
+				806B28A41C5FE4380089BBB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806B28A41C5FE4380089BBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806B28A31C5FE4380089BBB2 /* RTSPPlayerOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806B28A51C5FE4380089BBB2 /* RTSPPlayerOSX */ = {
+			isa = PBXGroup;
+			children = (
+				806B28CD1C5FE79D0089BBB2 /* FFMpegDecoder */,
+				806B28BA1C5FE4410089BBB2 /* FFMpegOSX */,
+				806B28A61C5FE4380089BBB2 /* AppDelegate.h */,
+				806B28A71C5FE4380089BBB2 /* AppDelegate.m */,
+				806B28AC1C5FE4380089BBB2 /* ViewController.h */,
+				806B28AD1C5FE4380089BBB2 /* ViewController.m */,
+				806B28AF1C5FE4380089BBB2 /* Assets.xcassets */,
+				806B28B11C5FE4380089BBB2 /* Main.storyboard */,
+				806B28B41C5FE4380089BBB2 /* Info.plist */,
+				806B28A91C5FE4380089BBB2 /* Supporting Files */,
+			);
+			path = RTSPPlayerOSX;
+			sourceTree = "<group>";
+		};
+		806B28A91C5FE4380089BBB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806B28AA1C5FE4380089BBB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		806B28BA1C5FE4410089BBB2 /* FFMpegOSX */ = {
+			isa = PBXGroup;
+			children = (
+				806B28BB1C5FE6C30089BBB2 /* libavcodec.dylib */,
+				806B28BC1C5FE6C30089BBB2 /* libavdevice.dylib */,
+				806B28BD1C5FE6C30089BBB2 /* libavfilter.dylib */,
+				806B28BE1C5FE6C30089BBB2 /* libavformat.dylib */,
+				806B28BF1C5FE6C30089BBB2 /* libavresample.dylib */,
+				806B28C01C5FE6C30089BBB2 /* libavutil.dylib */,
+				806B28C11C5FE6C30089BBB2 /* libpostproc.dylib */,
+				806B28C21C5FE6C30089BBB2 /* libswresample.dylib */,
+				806B28C31C5FE6C30089BBB2 /* libswscale.dylib */,
+			);
+			name = FFMpegOSX;
+			sourceTree = "<group>";
+		};
+		806B28CD1C5FE79D0089BBB2 /* FFMpegDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				806B28CE1C5FE7A40089BBB2 /* AudioStreamer.h */,
+				806B28CF1C5FE7A40089BBB2 /* AudioStreamer.m */,
+				806B28D01C5FE7A40089BBB2 /* RTSPPlayer.h */,
+				806B28D11C5FE7A40089BBB2 /* RTSPPlayer.m */,
+				806B28D21C5FE7A40089BBB2 /* Utilities.h */,
+				806B28D31C5FE7A40089BBB2 /* Utilities.m */,
+			);
+			name = FFMpegDecoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806B28A21C5FE4380089BBB2 /* RTSPPlayerOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806B28B71C5FE4380089BBB2 /* Build configuration list for PBXNativeTarget "RTSPPlayerOSX" */;
+			buildPhases = (
+				806B289F1C5FE4380089BBB2 /* Sources */,
+				806B28A01C5FE4380089BBB2 /* Frameworks */,
+				806B28A11C5FE4380089BBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTSPPlayerOSX;
+			productName = RTSPPlayerOSX;
+			productReference = 806B28A31C5FE4380089BBB2 /* RTSPPlayerOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806B289B1C5FE4380089BBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = omarzl;
+				TargetAttributes = {
+					806B28A21C5FE4380089BBB2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 806B289E1C5FE4380089BBB2 /* Build configuration list for PBXProject "RTSPPlayerOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806B289A1C5FE4380089BBB2;
+			productRefGroup = 806B28A41C5FE4380089BBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806B28A21C5FE4380089BBB2 /* RTSPPlayerOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806B28A11C5FE4380089BBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806B28B01C5FE4380089BBB2 /* Assets.xcassets in Resources */,
+				806B28B31C5FE4380089BBB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806B289F1C5FE4380089BBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806B28D61C5FE7A40089BBB2 /* Utilities.m in Sources */,
+				806B28AE1C5FE4380089BBB2 /* ViewController.m in Sources */,
+				806B28D51C5FE7A40089BBB2 /* RTSPPlayer.m in Sources */,
+				806B28AB1C5FE4380089BBB2 /* main.m in Sources */,
+				806B28A81C5FE4380089BBB2 /* AppDelegate.m in Sources */,
+				806B28D41C5FE7A40089BBB2 /* AudioStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		806B28B11C5FE4380089BBB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806B28B21C5FE4380089BBB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806B28B51C5FE4380089BBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		806B28B61C5FE4380089BBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		806B28B81C5FE4380089BBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/2.8.5/lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/2.8.5/include;
+				INFOPLIST_FILE = RTSPPlayerOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTSPPlayerOSX",
+					/usr/local/Cellar/ffmpeg/2.8.5/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarzl.RTSPPlayerOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		806B28B91C5FE4380089BBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/2.8.5/lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/2.8.5/include;
+				INFOPLIST_FILE = RTSPPlayerOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTSPPlayerOSX",
+					/usr/local/Cellar/ffmpeg/2.8.5/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarzl.RTSPPlayerOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806B289E1C5FE4380089BBB2 /* Build configuration list for PBXProject "RTSPPlayerOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806B28B51C5FE4380089BBB2 /* Debug */,
+				806B28B61C5FE4380089BBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806B28B71C5FE4380089BBB2 /* Build configuration list for PBXNativeTarget "RTSPPlayerOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806B28B81C5FE4380089BBB2 /* Debug */,
+				806B28B91C5FE4380089BBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806B289B1C5FE4380089BBB2 /* Project object */;
+}
