@@ -7,7 +7,7 @@ Has been tested with MJPEG and H.264 streams
 
 This project is based on the RTSP Player for iOS from: https://github.com/durfu/DFURTSPPlayer
 
-It was modified son it can work with Cocoa/OSX
+It was modified so it works with Cocoa/OSX
 
 Steps:
 
@@ -18,7 +18,7 @@ brew install ffmpeg
 ```
 The libraries would be in /usr/local/Cellar/ffmpeg/version/
 
-Where version stands for the version you donwloaded, this project used the version: 2.8.5
+Where version stands for the version you downloaded, this project uses the version: 2.8.5
 
 2.-Copy the libraries to your Xcode project, go to /usr/local/Cellar/ffmpeg/2.8.5/lib
 
